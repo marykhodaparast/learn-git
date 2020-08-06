@@ -1,0 +1,15 @@
+git init
+
+touch README.md
+
+git add README.md
+
+git commit -m "first commit"
+
+git remote add origin https://github.com/username/something.git
+
+git push -u origin master
+
+-------------------------------------------------------Note---------------------------------------------------------------- 
+1) for solving 403 error when pushing we should first say "git remote set-url origin https://github.com/username/something.git"
+2) if push rejected first we should pull and then push 
