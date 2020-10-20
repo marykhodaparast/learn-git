@@ -27,3 +27,6 @@ in this example team A work on index.html
 so we write git branch example and if we don't have .git first we write "git init to initialize"
 git branch => we see the branches
 if we write "git checkout exmple" then we are in the example branch not master
+git branch --help => gives you information about branch
+git branch -d example => it deletes branch example
+git checkout -b newCategory => switched to branch newCategory
