@@ -16,3 +16,4 @@ git push -u origin master
 git push -f origin master
 
 we use git add . to add all the files in our folder.
+git log => we see our commits
