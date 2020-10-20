@@ -30,3 +30,4 @@ if we write "git checkout exmple" then we are in the example branch not master
 git branch --help => gives you information about branch
 git branch -d example => it deletes branch example
 git checkout -b newCategory => switched to branch newCategory
+git merge newCategory => now the files in branch newCategory are added to branch master 
