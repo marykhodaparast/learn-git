@@ -25,3 +25,5 @@ by default we have a branch called master branch
 using branches is done when we have some teams and for example team A work on branch 1 (they work frontEnd) and team B work on branch2 (they work backend)
 in this example team A work on index.html
 so we write git branch example and if we don't have .git first we write "git init to initialize"
+git branch => we see the branches
+if we write "git checkout exmple" then we are in the example branch not master
