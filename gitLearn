@@ -19,3 +19,4 @@ we use git add . to add all the files in our folder.
 git log => we see our commits
 git reset --hard (45ef5a2d5a3db8782c8e478afe31348bae6a70b9=this is number of commit when you run git log) => it deletes that commit and changes of that commit
 git reset --soft (45ef5a2d5a3db8782c8e478afe31348bae6a70b9=this is number of commit when you run git log) => it deletes that commit but changes still exist
+for example if we want to remove last commit, we should do git reset --hard {{ lastcommit }}
