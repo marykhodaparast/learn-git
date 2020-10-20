@@ -21,3 +21,7 @@ git reset --hard (45ef5a2d5a3db8782c8e478afe31348bae6a70b9=this is number of com
 git reset  (45ef5a2d5a3db8782c8e478afe31348bae6a70b9=this is number of commit when you run git log) => it deletes that commit but changes still exist
 for example if we want to remove last commit, we should do git reset --hard {{ lastcommit }}
 all folers and files are saved in .git file so if we want to remove them we can remove .git
+by default we have a branch called master branch
+using branches is done when we have some teams and for example team A work on branch 1 (they work frontEnd) and team B work on branch2 (they work backend)
+in this example team A work on index.html
+so we write git branch example and if we don't have .git first we write "git init to initialize"
