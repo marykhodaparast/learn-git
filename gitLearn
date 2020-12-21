@@ -38,3 +38,5 @@ git config --global user.email "Edwin@diaz.com"
 So if you create a new file and then commit that file and then write "git log" you will see that this commit is with your new Name and new Email 
 -----------------
 The first step to contribute to a project in github is pull request
+
+--if you have problem warning pushing to github try "php artisan key:generate"
